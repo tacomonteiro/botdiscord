@@ -169,7 +169,7 @@ async def on_member_join(member):
     embed.set_footer(text="Equipe do servidor")  # Mensagem de rodapé (opcional)
 
     await canal.send(embed=embed)  # Envia a embed no canal específico
-"""
+"""( EM BREVE! )
 # Dicionário para armazenar os players ativos
 players = {}
 
@@ -213,3 +213,4 @@ async def play(ctx, url):
 
 # Coloque seu token aqui depois
 bot.run("SEU TOKEN")
+
